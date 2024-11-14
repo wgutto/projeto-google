@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 610px) {
+    main #logo_google {
+        width: 250px;
+    }
+    main #search {
+        width: 420px;
+    }
+}

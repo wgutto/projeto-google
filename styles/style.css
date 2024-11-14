@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 * {
     margin: 0;
     padding: 0;
@@ -75,9 +77,10 @@ main #logo_google {
     margin-bottom: 30px;
 }
 main #search {
-    min-width: 600px;
+    width: 600px;
     height: 50px;
     display: flex;
+    align-items: center;
 
     border: 1px solid #5f6368;
     border-radius: 30px;
@@ -88,7 +91,6 @@ main #search:hover {
 }
 main .search-img {
     display: flex;
-    align-items: center;
     margin-left: 15px;
     margin-right: 10px;
 }
@@ -136,6 +138,9 @@ footer p {
     padding: 10px 25px;
     font-size: 14px;
 }
+footer abbr {
+    text-decoration: none;
+}
 footer #footer-section {
     display: flex;
     justify-content: space-between;
@@ -151,4 +156,3 @@ footer #footer-section a {
 footer #footer-section a:hover {
     text-decoration: underline;
 }
-

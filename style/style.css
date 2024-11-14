@@ -69,7 +69,7 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-main .logo_google {
+main #logo_google {
     margin: auto;
     width: 300px;
     margin-bottom: 30px;
@@ -86,16 +86,13 @@ main #search:hover {
     background-color: #303134;
     border: 1px solid #303134;
 }
-main #search img {
-    width: 24px;
-}
 main .search-img {
     display: flex;
     align-items: center;
     margin-left: 15px;
     margin-right: 10px;
 }
-main .search-img img {
+main .search-img span {
     margin-right:  10px;
 }
 main #search input {
